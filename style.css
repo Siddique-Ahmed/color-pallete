@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+body{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.container{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.boxes{
+  width: 200px;
+  height: 200px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+.boxes h1{
+  font-size: 34px;
+  font-weight: 500;
+  color: #fff;
+}
